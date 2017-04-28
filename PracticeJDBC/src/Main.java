@@ -17,7 +17,7 @@ public class Main {
         try {
             connection = DriverManager.getConnection(url, user, password);
             if (!(connection.isClosed()))
-                System.out.println("Соединение установлено!");
+                System.out.println("Соединение установленоОООО!");
             body.bodyStart(connection);
 
             connection.close();
