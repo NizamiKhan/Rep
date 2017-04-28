@@ -9,5 +9,6 @@ public class Main {
         Singleton.getInstance().print();
         Singleton.getInstance().print();
         Singleton.getInstance().print();
+        Singleton.getInstance().print();
     }
 }
