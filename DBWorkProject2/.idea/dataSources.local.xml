@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="sakila@localhost" uuid="f3da87a5-7890-4c45-99d4-945e070303db">
+      <database-info product="MySQL" version="5.7.17-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:sakila</introspection-schemas>
+      <resolve-scope>sakila:</resolve-scope>
+      <unqualified-resolve-schemas>sakila:</unqualified-resolve-schemas>
+    </data-source>
+    <data-source name="@sql.edu-netcracker.com" uuid="47fa991d-73ff-4879-87fb-5c30aef2302a">
+      <database-info product="Oracle" version="Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>unc17i_hanguseinov</user-name>
+      <introspection-schemas>*:UNC17I_HANGUSEINOV</introspection-schemas>
+      <resolve-scope>*:PUBLIC,UNC17I_HANGUSEINOV</resolve-scope>
+      <unqualified-resolve-schemas>*:PUBLIC,UNC17I_HANGUSEINOV</unqualified-resolve-schemas>
+    </data-source>
+  </component>
+</project>
