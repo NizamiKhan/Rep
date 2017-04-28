@@ -7,8 +7,5 @@ public class Main {
         //Singleton ss=new Singleton(); ошибка
 
         Singleton.getInstance().print();
-        Singleton.getInstance().print();
-        Singleton.getInstance().print();
-        Singleton.getInstance().print();
     }
 }
