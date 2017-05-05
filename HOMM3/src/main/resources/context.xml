@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="bestHero" class="impls.heroes.BestHero"
+          p:firstLevel-ref="gremlin"
+          p:secondLevel-ref="gnome"
+          p:thirdLevel-ref="griffin">
+        <constructor-arg value="3" index="0" type="int"/>
+        <constructor-arg value="4" index="1" type="int"/>
+        <constructor-arg value="GOOD" index="2" type="enums.GroupHero"/>
+    </bean>
+
+    <bean id="bestHeroEmpty" class="impls.heroes.BestHero">
+        <constructor-arg ref="gremlin"/>
+        <constructor-arg ref="stoneGargoyles"/>
+        <constructor-arg ref="griffin"/>
+    </bean>
+
+    <bean id="archer" class="impls.castles.castle.Archer"/>
+    <bean id="griffin" class="impls.castles.castle.Griffin"/>
+    <bean id="spear" class="impls.castles.castle.Spear"/>
+
+    <bean id="centaur" class="impls.castles.hold.Centaur"/>
+    <bean id="elf" class="impls.castles.hold.Elf"/>
+    <bean id="gnome" class="impls.castles.hold.Gnome"/>
+
+    <bean id="gremlin" class="impls.castles.tower.Gremlin"/>
+    <bean id="stoneGargoyles" class="impls.castles.tower.StoneGargoyles"/>
+    <bean id="stoneGolem" class="impls.castles.tower.StoneGolem"/>
+</beans>
