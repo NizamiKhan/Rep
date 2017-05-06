@@ -4,6 +4,6 @@ import interfaces.castlesunits.SecondLevel;
 
 public class Archer implements SecondLevel {
     public void attackSecondLevel() {
-        System.out.println("Archer attack");
+        System.out.println("Archer aaaaattack");
     }
 }
