@@ -14,7 +14,5 @@ public class Start {
             BestHero bestHero = (BestHero) object;
             bestHero.attackAllUnits();
         }
-
-
     }
 }
