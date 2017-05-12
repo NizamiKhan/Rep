@@ -24,9 +24,7 @@ public class Calculator implements ICalculator {
 
     @Override
     public void div(double first, double second) throws UserException {
-        if (second == 0) {
-            throw new UserException("нельзя делить на ноль");
-        }
+        if (second == 0) throw new UserException("нельзя делить на ноль");
         this.result = first / second;
     }
 
